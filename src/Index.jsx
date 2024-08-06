@@ -53,7 +53,7 @@ function Form({ onAddItems }) {
     };
     onAddItems(newItem);
 
-    console.log(newItem)
+    console.log(newItem);
     setDescription("");
     setQuantity(1);
   }
